@@ -1,18 +1,163 @@
-#conteiner{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    background-color: rgba(127, 255, 212, 0.441);
-    border-radius: 10px;
+body{
+   background-image: url(/imagens/imagemdefundo.jpg);
+   
+}
 
+.conteiner{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    max-width: 100%;
+    padding: 20px;
+    height: 620px;
+    margin-top: 1%;
+    box-shadow: 1px 1px 13px 2px rgba(228, 228, 228, 0.399) ;
+   
+
+}
+h1{
+    text-align: center;
 }
 
 input{
+    color: aliceblue;
+    background-color: rgba(251, 251, 251, 0);
     display: block;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    border-radius: 10px;
 
 }    
+button{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.987);
+    border: 3;
+    border-color: white ;
+    margin-bottom: 30px;
+  
+
+}
+#mediapreco{
+    font-size: 20px;
+    background-color: rgba(44, 127, 21, 0.878);
+}
+
+img{
+    width: 30px;
+}
+p{
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    box-sizing: border-box;
+}
+iframe{
+    background: fixed;
+    position: static;
+   
+}
+ @media only screen and (min-width: 510px)
+{ .conteiner
+    {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    max-width: 30%;
+    padding: 20px;
+    background-image:url(/imagens/imagemdefundo.jpg);
+    height: 610px;
+    margin-left: 3%;
+    margin-top: 4%;
+    border-radius: 10%;
+    box-shadow: 1px 1px 13px 2px rgba(228, 228, 228, 0.399)
+    }
+}
+ 
+@media only screen and (min-width: 400px){
+   p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 400px){
+    #mediapreco{
+            font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 400px){
+   iframe{
+        width: 30%;
+        float: right;
+        margin-top: 60%;
+    }
+} 
+
+@media only screen and (min-width: 1025px){
+   iframe {
+        margin-top: 50%;
+    }
+} 
+/* @media only screen and (min-width: 1024px)
+    {.conteiner{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    max-width: 30%;
+    padding: 20px;
+    background-image:url(/imagens/imagemdefundo.jpg);
+    height: 620px;
+    margin-left: 3%;
+    margin-top: 4%;
+    border-radius: 10%;
+    box-shadow: 1px 1px 13px 2px rgba(228, 228, 228, 0.399)
+}
+    }
+@media only screen and (min-width: 400px) {
+    iframe{
+      
+        width: 30%;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    p{
+        font-size: 17px;
+    }
+}
+
+
+    @media only screen and (min-width: 400px){
+        #mediapreco{
+            font-size: 15px;
+            background-color: rgba(44, 127, 21, 0.878);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    iframe
+{
+    margin-top: 60%;
+}
+}
+
+@media only screen and (min-width: 1024px){
+        .conteiner
+{
+    height: 600px;
+}
+}
+
+@media only screen and (min-width: 1024px){
+    iframe
+{
+    margin-top: 50%;
+}
+}
