@@ -1,5 +1,5 @@
 body{
-   background-image: url(/imagens/imagemdefundo.jpg);
+   background-image: url(./imagens/imagemdefundo.jpg);
    
 }
 
@@ -71,7 +71,7 @@ iframe{
     color: aliceblue;
     max-width: 30%;
     padding: 20px;
-    background-image:url(/imagens/imagemdefundo.jpg);
+    background-image:url(./imagens/imagemdefundo.jpg);
     height: 610px;
     margin-left: 3%;
     margin-top: 2%;

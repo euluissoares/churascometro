@@ -30,9 +30,9 @@ function calcular() {
     let totalPP = precoCarnePP + precoCervejaPP;
     let mediaPreco = mediaPrecoCarne + mediaPrecoCerveja + mediaprecoBebidas
 
-    resultado.innerHTML =  `<p> <img src="/imagens/carne.png" alt="carne"> ${qtdTotalCarne / 1000} kg de carne. </P>`
-    resultado.innerHTML += `<p> <img src="/imagens/cerveja.png" alt="cerveja"> ${Math.ceil(qtdTotalCerveja / 355)} latas de cerveja. </p>`
-    resultado.innerHTML += `<p> <img src="/imagens/bebidas.png" alt="bebidas"> ${Math.ceil(qtdTotalBebidas / 2000)} pet's 2l de bebidas. </P>`
+    resultado.innerHTML =  `<p> <img src="./imagens/carne.png" alt="carne"> ${qtdTotalCarne / 1000} kg de carne. </P>`
+    resultado.innerHTML += `<p> <img src="./imagens/cerveja.png" alt="cerveja"> ${Math.ceil(qtdTotalCerveja / 355)} latas de cerveja. </p>`
+    resultado.innerHTML += `<p> <img src="./imagens/bebidas.png" alt="bebidas"> ${Math.ceil(qtdTotalBebidas / 2000)} pet's 2l de bebidas. </P>`
 
     resultado.innerHTML += `<P> Media de gasto  R$ ${Math.ceil(totalPC)},OO por criança.`
     resultado.innerHTML += `<P> Media de gasto  R$ ${Math.ceil(totalPP)},OO por adulto.`
