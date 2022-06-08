@@ -87,13 +87,16 @@ iframe{
  @media only screen and (min-width: 1001px){
     iframe{
          width: 30%;
-         float: right;
-         margin-top: 55%;
+         position: fixed;
+         top: 80%;
+         right: 0px;         
+         
      }
  } 
  @media only screen and (min-width: 1025px){
     iframe {
-         margin-top: 47.5%;
+        width: 20%;
+        right: 30px;
      }
  }  
  @media only screen and (min-width: 1001px){
@@ -101,4 +104,18 @@ iframe{
             font-size: 16px;
     }
 }
- 
+
+@media only screen and (min-width: 1025px){
+    body {
+        background-size: cover;
+     }
+
+    }
+
+    @media only screen and (min-width: 1025px){
+        .conteiner {
+            margin-left: 9%;
+            margin-top: 5%;
+         }
+    
+        }
